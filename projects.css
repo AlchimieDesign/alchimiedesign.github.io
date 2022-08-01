@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Dancing+Script&family=Homemade+Apple&family=Montserrat:wght@100&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:823px){
+
+  .header{
+    background: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+    height:12vh;
+   }
+
+
+.mobile-container {
+   max-width: 480px;
+   margin: auto;
+   background-color:rgb(4, 10, 22);
+   height: 200px;
+   color: white;
+   border-radius: 10px;
+ }
+ 
+ .topnav {
+   overflow: hidden;
+   background-color:rgba(9, 27, 34, 0.733);
+   position: relative;
+ }
+ 
+ .topnav #myLinks {
+   display: none;
+ }
+ 
+ .topnav a {
+   float: left;
+   color: white;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+ 
+ .topnav a.icon {
+   float: right;
+ }
+ 
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ .active {
+   background-color: #0f0b065b;
+   color: white;
+ }
+ .logo{display:none;}
+
+ .navbar-brand{
+     display:none;
+ }
+ h1{
+   position:relative;
+   margin-top:35px;
+    margin-left:24%;
+    font-size:6vw;
+     font-family: 'Homemade Apple', cursive;
+    color: rgb(19, 30, 41);
+     
+ }
+ 
+ .img{
+     width:70%;
+     height:40%;
+     margin-top:6%;
+     margin-left:8%;
+     border-width: 9px;
+     border-style:groove;
+     border-color:rgba(122, 87, 46, 0.384)
+ }
+
+ .slideshow-container {
+  margin-top:10%;
+  max-width: 1000px;
+  position:absolute;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(253, 251, 249);
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  left: 87%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+  margin-left:-4%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} to {opacity: 1}
+}
+
+#footer{
+  position: absolute;
+  margin-top:70%;
+  height:300px;
+  width:100%;
+  background-color:rgba(2, 23, 31, 0.877);
+  font-family: 'Cinzel', serif; 
+  color:antiquewhite;
+  font-size:small;
+}
+
+
+
+.return-top{
+  margin-left:35%;
+  color:#b8b5b1;
+  font-size:4vw;
+  text-decoration: none;
+  
+}
+footer{
+display:flex;
+flex-direction: column;
+margin-top:100vh;
+}
+.social{
+  position: absolute;
+  margin-top:9%;
+  margin-left:39%;
+}
+
+.fa{
+  
+  padding:10px;
+  font-size:30px;
+  width:30px;
+  text-align:center;
+  text-decoration:none;
+
+}
+
+.fa:hover{
+  opacity: 0.7;
+}
+
+.fa-facebook{
+  background-color: rgb(248, 247, 244);
+  color:rgb(4, 5, 34);
+}
+
+.fa-twitter{
+  background-color:#f7f6f4fb;
+  color:rgb(19, 15, 32);
+}
+
+.logo-img{
+  display:none;
+  width:22%;
+  height:22%;
+  margin-top:3%;
+  margin-left:40%;
+}
+
+.footer-text{
+  position:absolute;
+  width:70%;
+  margin-top:40% !important;
+  margin-left: 25%;
+  color:#fdfcfa;
+}
+
+.footer-nav{
+  display:flex;
+  flex-direction:column;
+  margin-left:38% !important;
+  margin-top:12% !important;
+  color:#837862;
+}
+.nav-link{
+  color:#97948e;
+  font-size:4vw;
+}
+
+#home{
+  margin-left:8%;
+  margin-top:2%;
+}
+
+#blog{
+  margin-left:11%;
+  margin-top:3%;
+
+}
+
+
+}
+
+@media screen and (min-width:482px) and (max-width:900px){
+
+  h1{
+    position:relative;
+    margin-top:33px;
+     margin-left:8vw;
+     font-size:10vw;
+      font-family: 'Homemade Apple', cursive;
+     color: rgb(19, 30, 41);
+      
+  }
+
+  .footer-text{
+    position:absolute;
+    width:70%;
+    margin-top:32% !important;
+    margin-left: 27%;
+    color:#fdfcfa;
+  }
+
+  #blog{
+    margin-left:8%;
+    margin-top:3%;
+  
+  }
+  
+ 
+}
+
+@media screen and (min-width:600px) and (max-width:819px){
+
+  .prev{
+    margin-left:2%;
+  }
+  
+
+  #footer{
+    position: absolute;
+    margin-top:70%;
+    height:160px;
+    width:100%;
+    background-color:rgba(2, 23, 31, 0.877);
+    font-family: 'Cinzel', serif;
+    color:antiquewhite;
+    font-size:small;
+  }
+  
+  
+  
+  .return-top{
+    margin-left:39%;
+    color:#b8b5b1;
+    font-size:2vw;
+    text-decoration: none;
+    
+  }
+  footer{
+  display:flex;
+  flex-direction: column;
+  margin-top:100vh;
+  }#blog{
+    margin-left:11%;
+    margin-top:3%;
+  
+  }
+  .social{
+    position: absolute;
+    margin-top:5%;
+    margin-left:39%;
+  }
+  
+  .fa{
+    
+    padding:10px;
+    font-size:30px;
+    width:30px;
+    text-align:center;
+    text-decoration:none;
+  
+  }
+  
+  .fa:hover{
+    opacity: 0.7;
+  }
+  
+  .fa-facebook{
+    background-color: rgb(248, 247, 244);
+    color:rgb(4, 5, 34);
+  }
+  
+  .fa-twitter{
+    background-color:#f7f6f4fb;
+    color:rgb(19, 15, 32);
+  }
+  
+  .logo-img{
+    display:none;
+    width:22%;
+    height:22%;
+    margin-top:3%;
+    margin-left:40%;
+  }
+  
+  .footer-text{
+    position:absolute;
+    width:70%;
+    margin-top:19% !important;
+    margin-left: 30%;
+    color:#fdfcfa;
+  }
+  
+  .footer-nav{
+    display:flex;
+    flex-direction:column;
+    margin-left:41% !important;
+    margin-top:5% !important;
+    color:#837862;
+  }
+  .nav-link{
+    color:#97948e;
+    font-size:2vw;
+  }
+  
+  #home{
+    margin-left:4%;
+    margin-top:5%;
+  }
+  
+  #blog{
+    margin-left:4%;
+    margin-top:5%;
+  }
+  
+
+}
+
+@media screen and (min-width:820px){
+  body{
+    margin:0;
+    padding:0;
+  }
+  .topnav{
+    position: absolute;
+    margin-left:7%;
+    width:90%;
+    margin-top:2%;
+    background-color:rgba(59, 80, 88, 0.548);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+   
+  .topnav a:hover {
+    background-color: rgba(95, 93, 93, 0.568);
+    color: rgb(243, 243, 243);
+  }
+
+  .topnav a.active {
+    background-color: #373838;
+    color: white;
+    display:none;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+ 
+  
+.header{
+ 
+height: 13vh;
+background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+}
+
+.logo{
+margin-left:5%;
+}
+
+.mylinks{
+margin-left:-2%;
+}
+
+.topnav a.icon {
+display:none;
+}
+
+#header-home{
+  margin-top:-1%;
+}
+
+#contact-link{
+margin-top:-1%;
+margin-left:60%;
+}
+
+.logo-image{
+position: absolute;
+margin-top:-1%;
+margin-left:37vw;
+width:46px;
+height:40px;
+overflow: hidden;
+
+
+}logo-text{
+display:none;
+}
+
+#logo{
+  height:36px;
+}
+.active{
+display:none;
+}
+
+h1{
+  position:absolute;
+  margin-top:8%;
+   margin-left:14vw;
+   font-size:8vw;
+    font-family: 'Homemade Apple', cursive;
+   color: rgb(19, 30, 41);
+    
+}
+
+.img{
+    width:70%;
+    height:40%;
+    margin-top:6%;
+    margin-left:8%;
+    border-width: 9px;
+    border-style:groove;
+    border-color:rgba(122, 87, 46, 0.384)
+}
+
+.slideshow-container {
+ margin-top:26%;
+ margin-left:9%;
+ max-width: 1000px;
+ position:absolute;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+ display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 30%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 30%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: rgb(253, 251, 249);
+ font-weight: bold;
+ font-size: 50px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+ left: 90%;
+ border-radius: 3px 0 0 3px;
+}
+
+.prev{
+ margin-left:3%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@keyframes fade {
+ from {opacity: .4} to {opacity: 1}
+}
+
+#footer{
+ position: absolute;
+ margin-top:75%;
+ height:200px;
+ width:100%;
+ background-color:rgba(2, 23, 31, 0.877);
+ font-family: 'Cinzel', serif;
+ color:antiquewhite;
+ font-size:small;
+}
+
+
+
+.return-top{
+ margin-left:38%;
+ color:#b8b5b1;
+ font-size:2vw;
+ text-decoration: none;
+ 
+}
+footer{
+display:flex;
+flex-direction: column;
+margin-top:100vh;
+}
+.social{
+ position: absolute;
+ margin-top:5%;
+ margin-left:41%;
+}
+
+.fa{
+ 
+ padding:10px;
+ font-size:30px;
+ width:30px;
+ text-align:center;
+ text-decoration:none;
+
+}
+
+.fa:hover{
+ opacity: 0.7;
+}
+
+.fa-facebook{
+ background-color: rgb(248, 247, 244);
+ color:rgb(4, 5, 34);
+}
+
+.fa-twitter{
+ background-color:#f7f6f4fb;
+ color:rgb(19, 15, 32);
+}
+
+.logo-img{
+ display:none;
+ width:22%;
+ height:22%;
+ margin-top:3%;
+ margin-left:40%;
+}
+
+.footer-text{
+ position:absolute;
+ width:70%;
+ margin-top:13% !important;
+ margin-left: 32%;
+ font-size:19px;
+ color:#fdfcfa;
+}
+
+.footer-nav{
+ display:flex;
+ flex-direction:column;
+ margin-left:40% !important;
+ margin-top:4% !important;
+ color:#837862;
+}
+.nav-link{
+ color:#97948e;
+ font-size:2vw;
+}
+
+#home{
+ margin-left:-50%;
+ margin-top:-11%;
+}
+
+#blog{
+  margin-left:67%;
+ margin-top:-4%;
+}
+
+}
+
+
+
+
+ 

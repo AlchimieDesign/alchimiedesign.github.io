@@ -1,0 +1,1357 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Dancing+Script&family=Homemade+Apple&family=Montserrat:wght@100&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+
+@media screen and (max-width:900px){
+    
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      
+      .header{
+          background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+          height:60vh;
+      }
+      
+      
+      .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        background-color:rgba(59, 80, 88, 0.253);
+        height: 500px;
+        color: white;
+        border-radius: 10px;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: rgba(26, 44, 61, 0.39);
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a.icon {
+        float: right;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: #0f0b065b;
+        color: white;
+      }
+
+      
+      .logo{display:none;}
+
+      #section-1{
+          background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+          background-size:cover;
+          height:50vh;
+      }
+      
+     
+
+      #logo{
+        display:none;
+          width:10%;
+          height:10%;
+          margin-top:-3%;
+          margin-left:-3%;
+      }
+
+
+      img{
+          margin-left:10%;
+          margin-top:4%;
+          width:80vw;
+          height:30vh;
+          box-shadow: 2px 6px rgba(58, 71, 75, 0.384);
+    }
+    
+
+    .header-img{
+        opacity: 0.6;
+        width:90vw;
+        height:32vh;
+        margin-left:4%;
+        margin-top:5%;
+       
+    }
+
+      h1{
+        display:none;
+          color:rgb(12, 26, 51) !important;
+      }
+
+      #about-header{
+        position: absolute;
+        margin-top:14%;
+        margin-left:9%;
+        font-family: 'Homemade Apple', cursive;
+        font-size:5vw;
+        z-index:-1;
+        color:rgba(8, 22, 36, 0.774);
+      }
+      
+
+      #intro-text{
+        margin-left: 10%;
+        margin-top:26%;
+       width:79%;
+        text-align:justify;
+        font-size:18px;;
+        font-family: 'Cinzel', serif;
+        line-height: 22px;
+        color:rgba(8, 22, 36, 0.774);
+    }
+
+    .button-container{
+     position: absolute;
+      margin-top:16%;
+      margin-left:15%;
+      width:75%;
+      height:18%;
+      background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+    }
+
+    .overlay-blue{
+      position: absolute;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-content: flex-start;
+      margin-top:-3%;
+      margin-left:-5%;
+      width:80vw;
+      height:124%;
+      background-color:#0711249c;
+    }
+
+    .button-redirect{
+      margin-top:2%;
+      margin-left:15%;
+      padding:10%;
+      font-size:9vw;
+      font-family: 'Homemade Apple', cursive;
+      text-decoration: none;
+      color:#f2f2f2;
+
+    }
+
+    #footer{
+      position: absolute;
+      margin-top:80%;
+      height:270px;
+      width:100%;
+      background-color:rgba(2, 23, 31, 0.877);
+      font-family: 'Cinzel', serif;
+      color:antiquewhite;
+      font-size:small;
+    }
+
+    .return-top{
+      margin-top:10%;
+      margin-left:36%;
+      color:#837862;
+      font-size:4vw;
+      text-decoration: none;
+      
+    }
+footer{
+  display:flex;
+  flex-direction: column;
+  margin-top:100vh;
+}
+    .social{
+      position: absolute;
+      margin-top:25%;
+      margin-left:45%;
+    }
+    
+    .fa{
+      
+      padding:10px;
+      font-size:30px;
+      width:30px;
+      text-align:center;
+      text-decoration:none;
+
+    }
+
+    .fa:hover{
+      opacity: 0.7;
+    }
+
+    .fa-facebook{
+      background-color: rgb(248, 247, 244);
+      color:rgb(4, 5, 34);
+    }
+
+    .fa-twitter{
+      background-color:#f7f6f4fb;
+      color:rgb(19, 15, 32);
+    }
+
+    .logo-img{
+      width:22%;
+      height:22%;
+      margin-top:3%;
+      margin-left:40%;
+    }
+
+    .footer-text{
+      position:absolute;
+      width:70%;
+      margin-top:49%;
+      margin-left: 27%;
+      color:#fdfcfa;
+    }
+
+    .footer-nav{
+      display:flex;
+      flex-direction:column;
+      margin-left:42%;
+      margin-top:17%;
+      color:#837862;
+    }
+    .nav-link{
+      color:#55482e;
+      font-size:4vw;
+    }
+    
+    #blog{
+      margin-top:-3% !important;
+    margin-left:6% !important;}
+}
+
+@media screen and (min-width:545px) and (max-width:561px){
+ 
+  
+  
+  #footer{
+    position: absolute;
+    margin-bottom:-2%;
+    height:250px;
+    width:100%;
+    background-color:rgba(2, 23, 31, 0.877);
+    font-family: 'Cinzel', serif;
+    color:antiquewhite;
+    font-size:small;
+  }
+
+  .return-top{
+    margin-top:3%;
+    margin-left:36%;
+    color:#837862;
+    font-size:4vw;
+    text-decoration: none;
+    
+  }
+footer{
+display:flex;
+flex-direction: column;
+margin-top:100vh;
+}
+  .social{
+    position: absolute;
+    margin-top:10%;
+    margin-left:45%;
+  }
+  
+  .fa{
+    
+    padding:10px;
+    font-size:30px;
+    width:30px;
+    text-align:center;
+    text-decoration:none;
+
+  }
+
+  .fa:hover{
+    opacity: 0.7;
+  }
+
+  .fa-facebook{
+    background-color: rgb(248, 247, 244);
+    color:rgb(4, 5, 34);
+  }
+
+  .fa-twitter{
+    background-color:#f7f6f4fb;
+    color:rgb(19, 15, 32);
+  }
+
+  .logo-img{
+    width:16%;
+    height:30%;
+    margin-top:3%;
+    margin-left:42%;
+  }
+
+  .footer-text{
+    position:absolute;
+    width:70%;
+    margin-top:41%;
+    margin-left: 29%;
+    color:#fdfcfa;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction:column;
+    margin-left:42%;
+    margin-top:10%;
+    color:#837862;
+  }
+  .nav-link{
+    color:#55482e;
+    font-size:4vw;
+  }
+
+}
+
+@media screen and (min-width:562px) and (max-width:800px){
+  body{
+    overflow-x:hidden;
+    
+  }
+  
+  
+  #footer{
+    position: absolute;
+    margin-top:80%;
+    height:200px;
+    width:100%;
+    background-color:rgba(2, 23, 31, 0.877);
+    font-family: 'Cinzel', serif;
+    color:antiquewhite;
+    font-size:small;
+  }
+
+  .return-top{
+    margin-top:2%;
+    margin-left:36%;
+    color:#837862;
+    font-size:4vw;
+    text-decoration: none;
+    
+  }
+footer{
+display:flex;
+flex-direction: column;
+margin-top:100vh;
+}
+  .social{
+    position: absolute;
+    margin-top:10%;
+    margin-left:45%;
+  }
+  
+  .fa{
+    
+    padding:10px;
+    font-size:30px;
+    width:30px;
+    text-align:center;
+    text-decoration:none;
+
+  }
+
+  .fa:hover{
+    opacity: 0.7;
+  }
+
+  .fa-facebook{
+    background-color: rgb(248, 247, 244);
+    color:rgb(4, 5, 34);
+  }
+
+  .fa-twitter{
+    background-color:#f7f6f4fb;
+    color:rgb(19, 15, 32);
+  }
+
+  .logo-img{
+    display:none;
+    width:12%;
+    height:25%;
+    margin-top:3%;
+    margin-left:45%;
+  }
+
+  .footer-text{
+    position:absolute;
+    width:70%;
+    margin-top:30%;
+    margin-left: 30%;
+    color:#fdfcfa;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction:column;
+    margin-left:42%;
+    margin-top:9%;
+    color:#837862;
+  }
+  .nav-link{
+    color:#55482e;
+    font-size:4vw;
+  }
+}
+
+
+@media screen and (min-width:634px) and (max-width:900px){
+ 
+    #footer{
+    position: absolute;
+    margin-top:70%;
+    height:257px;
+    width:100%;
+    background-color:rgba(2, 23, 31, 0.877);
+    font-family: 'Cinzel', serif;
+    color:antiquewhite;
+    font-size:small;
+  }
+
+  .return-top{
+    margin-left:40%;
+    color:#837862;
+    font-size:3vw;
+    text-decoration: none;
+    
+  }
+footer{
+display:flex;
+flex-direction: column;
+margin-top:100vh;
+}
+  .social{
+    position: absolute;
+    margin-top:8%;
+    margin-left:45%;
+  }
+  
+  .fa{
+    
+    padding:10px;
+    font-size:30px;
+    width:30px;
+    text-align:center;
+    text-decoration:none;
+
+  }
+
+  .fa:hover{
+    opacity: 0.7;
+  }
+
+  .fa-facebook{
+    background-color: rgb(248, 247, 244);
+    color:rgb(4, 5, 34);
+  }
+
+  .fa-twitter{
+    background-color:#f7f6f4fb;
+    color:rgb(19, 15, 32);
+  }
+
+  .logo-img{
+    width:12%;
+    height:25%;
+    margin-top:3%;
+    margin-left:45%;
+  }
+
+  .footer-text{
+    position:absolute;
+    width:70%;
+    margin-top:30%;
+    margin-left: 33%;
+    color:#fdfcfa;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction:column;
+    margin-left:42%;
+    margin-top:10%;
+    color:#837862;
+  }
+  .nav-link{
+    color:#55482e;
+    font-size:3vw;
+  }
+}
+    
+
+
+@media screen and (min-width:634px) and (max-width:728px){
+ 
+
+ .button-container{
+  position: absolute;
+   margin-top:30%;
+   margin-left:15%;
+   width:75%;
+   height:18%;
+   background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+ }
+
+ .overlay-blue{
+   position: absolute;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-content: flex-start;
+   margin-top:-3%;
+   margin-left:-5%;
+   width:80vw;
+   height:124%;
+   background-color:#0711249c;
+ }
+
+ .button-redirect{
+   margin-top:2%;
+   margin-left:15%;
+   padding:10%;
+   font-size:9vw;
+   font-family: 'Homemade Apple', cursive;
+   text-decoration: none;
+   color:#f2f2f2;
+
+ }
+ 
+  #footer{
+    position: absolute;
+    margin-top:100%;
+    height:200px;
+    width:100%;
+    background-color:rgba(2, 23, 31, 0.877);
+    font-family: 'Cinzel', serif;
+    color:antiquewhite;
+    font-size:small;
+  }
+
+  .return-top{
+    margin-left:39%;
+    color:#837862;
+    font-size:3vw;
+    text-decoration: none;
+    
+  }
+footer{
+display:flex;
+flex-direction: column;
+margin-top:100vh;
+}
+  .social{
+    position: absolute;
+    margin-top:7%;
+    margin-left:45%;
+  }
+  
+  .fa{
+    
+    padding:10px;
+    font-size:30px;
+    width:30px;
+    text-align:center;
+    text-decoration:none;
+
+  }
+
+  .fa:hover{
+    opacity: 0.7;
+  }
+
+  .fa-facebook{
+    background-color: rgb(248, 247, 244);
+    color:rgb(4, 5, 34);
+  }
+
+  .fa-twitter{
+    background-color:#f7f6f4fb;
+    color:rgb(19, 15, 32);
+  }
+
+  .logo-img{
+    width:12%;
+    height:25%;
+    margin-top:3%;
+    margin-left:45%;
+  }
+
+  .footer-text{
+    position:absolute;
+    width:70%;
+    margin-top:25%;
+    margin-left: 30%;
+    color:#fdfcfa;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction:column;
+    margin-left:42%;
+    margin-top:10%;
+    color:#837862;
+  }
+  .nav-link{
+    color:#55482e;
+    font-size:3vw;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:789px) and (max-width:910px){
+
+  
+  body{
+  overflow-x: hidden;}
+
+  #about-header{
+    position: absolute;
+    margin-top:14%;
+    margin-left:9%;
+    font-family: 'Homemade Apple', cursive;
+    font-size:5vw;
+    color:rgba(4, 28, 51, 0.774);
+    z-index:-1;
+  }
+  
+
+  #intro-text{
+    margin-left: 10%;
+    margin-top:24%;
+   width:79%;
+    text-align:justify;
+    font-size:26px;;
+    font-family: 'Cinzel', serif;
+    line-height: 22px;
+    color:rgba(4, 28, 51, 0.774);
+}
+.button-container{
+  position: absolute;
+   margin-top:12%;
+   margin-left:15%;
+   width:75%;
+   height:18%;
+   background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+ }
+
+ .overlay-blue{
+   position: absolute;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-content: flex-start;
+   margin-top:-2%;
+   margin-left:-5%;
+   width:80vw;
+   height:124%;
+   background-color:#0711249c;
+ }
+
+ .button-redirect{
+   margin-top:2%;
+   margin-left:15%;
+   padding:10%;
+   font-size:9vw;
+   font-family: 'Homemade Apple', cursive;
+   text-decoration: none;
+   color:#f2f2f2;
+
+ }
+  
+  #footer{
+    position: absolute;
+    margin-top:40%;
+    height:150px;
+    width:100%;
+    background-color:rgba(2, 23, 31, 0.877);
+    font-family: 'Cinzel', serif;
+    color:antiquewhite;
+    font-size:small;
+  }
+  
+  .return-top{
+    position: absolute;
+    margin-left:40%;
+    margin-top:1%;
+    color:#a59e8e;
+    font-size:2vw;
+    text-decoration: none;
+    
+  }
+  footer{
+  display:flex;
+  flex-direction: column;
+  }
+  .social{
+    position: absolute;
+    margin-top:7%;
+    margin-left:45%;
+  }
+  
+  .fa{
+    
+    padding:10px;
+    font-size:38px;
+    width:39px;
+    text-align:center;
+    text-decoration:none;
+  
+  }
+  
+  .fa:hover{
+    opacity: 0.7;
+  }
+  
+  .fa-facebook{
+    background-color: rgb(248, 247, 244);
+    color:rgb(4, 5, 34);
+  }
+  
+  .fa-twitter{
+    background-color:#f7f6f4fb;
+    color:rgb(19, 15, 32);
+  }
+  
+  
+  
+  .footer-text{
+    width:70%;
+    margin-top:14%;
+    margin-left:38%;
+    color:#a3917c;
+  }
+  
+  .footer-nav{
+    
+    margin-left:10%;
+    margin-top:3%;
+    color:#837862;
+  }
+  .nav-link{
+    margin-top:5%;
+    margin-left:30%;
+    color:#8b7852;
+    font-size:2vw;
+    
+  }
+  #blog{
+    position: absolute;
+    margin-top:4%;
+    margin-left:32%;
+  }
+  #work{
+    position:absolute;
+    margin-top:-3%;
+    margin-left:72%;
+  }
+  
+  
+
+}
+
+@media screen and (min-width:910px) and (max-width:937px){
+
+  
+  
+
+  .topnav{
+    position: absolute;
+    margin-left:7%;
+    width:90%;
+    margin-top:2%;
+    background-color:rgba(59, 80, 88, 0.548);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+   
+  .topnav a:hover {
+    background-color: rgba(95, 93, 93, 0.568);
+    color: rgb(243, 243, 243);
+  }
+
+  .topnav a.active {
+    background-color: #373838;
+    color: white;
+    display:none;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+ 
+  
+.header{
+height: 70vh;
+background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+}
+
+.logo{
+margin-left:5%;
+}
+
+.mylinks{
+margin-left:-2%;
+}
+
+.topnav a.icon {
+display:none;
+}
+
+#contact-link{
+margin-top:-5%;
+margin-left:80%;
+}
+
+.logo-image{
+position: absolute;
+margin-top:-1%;
+margin-left:37vw;
+width:46px;
+height:46px;
+overflow: hidden;
+
+
+}logo-text{
+display:none;
+}
+
+.active{
+display:none;
+}
+
+h1{
+position: absolute;
+margin-top:14%;
+margin-left: 10vw;
+font-family: 'Homemade Apple', cursive;
+color:rgb(241, 241, 241);
+font-size: 9rem;
+}
+
+
+
+.header-img{
+display:none
+}
+
+
+  #about-header{
+    position: absolute;
+    margin-top:14%;
+    margin-left:9%;
+    font-family: 'Homemade Apple', cursive;
+    font-size:5vw;
+    color:rgba(36, 57, 78, 0.774);
+    z-index:-1;
+  }
+  
+
+  #intro-text{
+    margin-left: 10%;
+    margin-top:24%;
+   width:79%;
+    text-align:justify;
+    font-size:26px;;
+    font-family: 'Cinzel', serif;
+    line-height: 22px;
+    color:rgba(32, 40, 46, 0.5);
+    color:rgba(29, 47, 65, 0.774);
+}
+
+  
+  #footer{
+    position: absolute;
+    margin-top:40%;
+    height:400px;
+    width:120%;
+    background-color:rgba(2, 23, 31, 0.877);
+    font-family: 'Cinzel', serif;
+    color:antiquewhite;
+    font-size:small;
+  }
+  
+  .return-top{
+    position: absolute;
+    margin-left:30%;
+    margin-top:1%;
+    color:#d6d4cf;
+    font-size:4vw;
+    text-decoration: none;
+    
+  }
+  footer{color:#f2f2f2;
+  display:flex;
+  flex-direction: column;
+  }
+  .social{
+    position: absolute;
+    margin-top:10%;
+    margin-left:38%;
+  }
+  
+  .fa{
+    
+    padding:10px;
+    font-size:38px;
+    width:39px;
+    text-align:center;
+    text-decoration:none;
+  
+  }
+  
+  .fa:hover{
+    opacity: 0.7;
+  }
+  
+  .fa-facebook{
+    background-color: rgb(248, 247, 244);
+    color:rgb(4, 5, 34);
+  }
+  
+  .fa-twitter{
+    background-color:#f7f6f4fb;
+    color:rgb(19, 15, 32);
+  }
+  
+  
+  
+  .footer-text{
+    width:70%;
+    margin-top:20%;
+    margin-left:33%;
+    color:#705b40;
+  }
+  
+  .footer-nav{
+    position: absolute;
+    margin-left:10%;
+    margin-top:-2%;
+    color:#f2f2f2;
+    font-size:5vw;
+  }
+  .nav-link{
+    margin-top:5%;
+    margin-left:30%;
+    color:#8b7852;
+    font-size:3vw;
+    
+  }
+  #blog{
+    position: absolute;
+    margin-top:2%;
+    margin-left:40% !important;
+    color:#f2f2f2;
+  }
+  #work{
+    position:absolute;
+    margin-top:2%;
+    margin-left:52%;
+    color:#f2f2f2;
+  }
+  
+  
+
+}
+
+@media screen and (min-width:911px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+
+  .topnav{
+    position: absolute;
+    margin-left:7%;
+    width:90%;
+    margin-top:2%;
+    background-color:rgba(59, 80, 88, 0.548);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+   
+  .topnav a:hover {
+    background-color: rgba(95, 93, 93, 0.568);
+    color: rgb(243, 243, 243);
+  }
+
+  .topnav a.active {
+    background-color: #373838;
+    color: white;
+    display:none;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+ 
+  
+.header{
+height: 70vh;
+background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+}
+
+.logo{
+margin-left:5%;
+}
+
+.mylinks{
+margin-left:-2%;
+}
+
+.topnav a.icon {
+display:none;
+}
+
+#contact-link{
+margin-top:-5%;
+margin-left:80%;
+}
+
+.logo-image{
+position: absolute;
+margin-top:-1%;
+margin-left:37vw;
+width:46px;
+height:46px;
+overflow: hidden;
+
+
+}logo-text{
+display:none;
+}
+
+.active{
+display:none;
+}
+
+h1{
+position: absolute;
+margin-top:14%;
+margin-left: 21vw;
+font-family: 'Homemade Apple', cursive;
+color:rgb(241, 241, 241);
+font-size: 9rem;
+}
+
+
+
+.header-img{
+display:none
+}
+
+#about-header{
+position: absolute;
+margin-top:7%;
+margin-left:10%;
+font-family: 'Homemade Apple', cursive;
+font-size:5vw;
+color:rgba(11, 16, 39, 0.774);
+z-index:-1;
+}
+
+
+
+#intro-text{
+  margin-left: 13%;
+  margin-top:18%;
+ width:79%;
+  text-align:justify;
+  font-size:26px;;
+  font-family: 'Cinzel', serif;
+  line-height: 22px;
+  color:rgba(11, 16, 39, 0.774);
+  
+}
+
+.button-container{
+position: absolute;
+margin-top:10%;
+margin-left:24%;
+width:50%;
+height:20%;
+background-image: url("img/Cast Iron Spanish Floor and Wall Tile - BV Tile and Stone.jpg");
+}
+
+.overlay-blue{
+display:none;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-content: flex-start;
+margin-top:2%;
+margin-left:1%;
+width:45vw;
+height:62%;
+background-color:rgba(59, 80, 88, 0.637);
+}
+
+.button-redirect{
+margin-top:2%;
+margin-left:15%;
+padding:10%;
+font-size:6vw;
+font-family: 'Homemade Apple', cursive;
+text-decoration: none;
+color:#f2f2f2;
+
+}
+
+
+
+#footer{
+position: absolute;
+margin-top:30%;
+height:200px;
+width:100%;
+background-color:rgba(2, 23, 31, 0.877);
+font-family: 'Cinzel', serif;
+color:antiquewhite;
+font-size:small;
+}
+
+.return-top{
+margin-left:40%;
+color:#837862;
+font-size:2vw;
+text-decoration: none;
+
+}
+footer{
+display:flex;
+flex-direction: column;
+}
+.social{
+position: absolute;
+margin-top:14%;
+margin-left:42%;
+}
+
+.fa{
+
+padding:12px;
+font-size:38px;
+width:39px;
+text-align:center;
+text-decoration:none;
+
+}
+
+.fa:hover{
+opacity: 0.7;
+}
+
+.fa-facebook{
+background-color: rgb(248, 247, 244);
+color:rgb(4, 5, 34);
+}
+
+.fa-twitter{
+background-color:#f7f6f4fb;
+color:rgb(19, 15, 32);
+}
+
+.logo-img{
+display:none;
+width:30%;
+height:40%;
+margin-top:2%;
+margin-left:40%;
+}
+
+.footer-text{
+  position: absolute;
+width:70%;
+margin-top:12%;
+margin-left:30%;
+color:#f7f1ea;
+font-size: 22px;
+}
+
+.footer-nav{
+
+margin-left:10%;
+margin-top:-20%;
+
+}
+.nav-link{
+ 
+margin-top:5%;
+margin-left:36%;
+color:#837862;
+font-size:24px;
+
+}
+
+#work{
+  position: absolute;
+margin-top:17%;
+margin-left:10%;
+}
+
+#blog{
+position: absolute;
+  margin-top:17%;
+  margin-left:60% !important;
+}
+}
+
+@media screen and (min-width:912px){
+
+  a:hover{
+    color:#f2f2f2;
+  }
+
+  #footer{
+    position: absolute;
+    margin-top:30%;
+    height:300px !important;
+    width:100%;
+    background-color:rgba(2, 23, 31, 0.877);
+    font-family: 'Cinzel', serif;
+    color:antiquewhite;
+    font-size:small;
+    }
+    
+    .return-top{
+     position: absolute;
+    margin-left:43%;
+    color:#837862;
+    font-size:2vw;
+    text-decoration: none;
+    
+    }
+    footer{
+    display:flex;
+    flex-direction: column;
+    }
+    .social{
+    position: absolute;
+    margin-top:7%;
+    margin-left:46%;
+    }
+    
+    .fa{
+    
+    padding:15px;
+    font-size:38px;
+    width:45px;
+    text-align:center;
+    text-decoration:none;
+    
+    }
+    
+    .fa:hover{
+    opacity: 0.7;
+    }
+    
+    .fa-facebook{
+    background-color: rgb(248, 247, 244);
+    color:rgb(4, 5, 34);
+    }
+    
+    .fa-twitter{
+    background-color:#f7f6f4fb;
+    color:rgb(19, 15, 32);
+    }
+    
+    
+    
+    .footer-text{
+      position: absolute;
+    width:70%;
+    margin-top:19%;
+    margin-left:34%;
+    color:#f7f1ea;
+    font-size: 2vw;
+    }
+    
+    .footer-nav{
+    
+    margin-left:8%;
+    margin-top:-4%;
+    color:#837862;
+    
+    }
+    .nav-link{
+     
+   
+    margin-left:36%;
+   
+    font-size:24px;
+    }
+    
+    #work{
+      position: absolute;
+    margin-top:4%;
+    margin-left:1%;
+    }
+
+    #blog{
+      margin-top:4% !important;
+      margin-left:80%!important;
+     
+     
+    }
+    
+    
+
+}
+
+
