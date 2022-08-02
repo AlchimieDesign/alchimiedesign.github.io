@@ -241,12 +241,9 @@ footer{
     }
     
     #blog{
-      margin-top:4% !important;
+      margin-top:-2% !important;
     margin-left:6% !important;}
 
-  #blog{
-    
-  }
   #work{
     position:absolute;
     margin-top:-3%;
