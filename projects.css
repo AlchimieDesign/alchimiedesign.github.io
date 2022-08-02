@@ -28,7 +28,8 @@ body{
  
  .topnav {
    overflow: hidden;
-   background-color:rgba(9, 27, 34, 0.733);
+   
+background-color: rgba(26, 44, 61, 0.39);
    position: relative;
  }
  
