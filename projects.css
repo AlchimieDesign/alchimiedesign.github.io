@@ -20,7 +20,7 @@ body{
 .mobile-container {
    max-width: 480px;
    margin: auto;
-   background-color:rgb(4, 10, 22);
+   background-color:rgba(9, 27, 34, 0.733);
    height: 200px;
    color: white;
    border-radius: 10px;
@@ -179,7 +179,7 @@ body{
 #footer{
   position: absolute;
   margin-top:90%;
-  height:270px !important;
+  height:300px !important;
   width:100%;
   background-color:rgba(2, 23, 31, 0.877);
   font-family: 'Cinzel', serif; 
@@ -259,7 +259,7 @@ margin-top:100vh;
   font-size:4vw;
 }
 
-#home{
+#work{
   margin-left:8%;
   margin-top:2%;
 }
