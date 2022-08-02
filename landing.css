@@ -241,8 +241,17 @@ footer{
     }
     
     #blog{
-      margin-top:-3% !important;
+      margin-top:4% !important;
     margin-left:6% !important;}
+
+  #blog{
+    
+  }
+  #work{
+    position:absolute;
+    margin-top:-3%;
+    margin-left:72%;
+  }
 }
 
 @media screen and (min-width:545px) and (max-width:561px){
