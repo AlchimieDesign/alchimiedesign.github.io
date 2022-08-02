@@ -21,6 +21,7 @@ body{
    max-width: 480px;
    margin: auto;
    background-color:rgba(9, 27, 34, 0.733);
+background-color: rgba(26, 44, 61, 0.39);
    height: 200px;
    color: white;
    border-radius: 10px;
@@ -28,8 +29,9 @@ body{
  
  .topnav {
    overflow: hidden;
-   
-background-color: rgba(26, 44, 61, 0.39);
+
+   background-color:rgba(9, 27, 34, 0.733);
+
    position: relative;
  }
  
